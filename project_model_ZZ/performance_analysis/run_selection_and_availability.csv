@@ -1,0 +1,13 @@
+layer,run,strict_three_run_role,used_for_primary_diagnostics,best_wasserstein,best_epoch,generated_windows_available,n_generated_windows
+1,0,middle,True,0.0019217785120149433,1975,True,2297
+1,1,best,False,0.0019003640105849547,2725,False,0
+1,2,worst,False,0.001944167445264191,1880,False,0
+2,0,worst,False,0.005548694733565916,495,False,0
+2,1,best,False,0.0040192899836370465,2610,False,0
+2,2,middle,True,0.005462334362067593,1190,True,2297
+3,0,worst,False,0.0017714918178209746,460,False,0
+3,1,best,False,0.0011545473706202228,2295,False,0
+3,2,middle,True,0.0015145984580893623,3395,True,2297
+4,0,middle,True,0.0029033651959131943,315,True,2297
+4,1,worst,False,0.004191083117367807,1175,False,0
+4,2,best,False,0.0027042218023912764,3895,False,0

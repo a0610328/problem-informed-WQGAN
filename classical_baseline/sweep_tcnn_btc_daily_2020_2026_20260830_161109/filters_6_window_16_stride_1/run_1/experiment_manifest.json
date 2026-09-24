@@ -1,0 +1,30 @@
+{
+  "generator": "TCNN-width-6",
+  "run_id": 1,
+  "seed": 42,
+  "generator_parameter_count": 157,
+  "critic_parameter_count": 58593,
+  "training": {
+    "window_size": 16,
+    "stride": 1,
+    "epochs": 4001,
+    "batch_size": 72,
+    "n_critic": 5,
+    "eval_interval": 5,
+    "checkpoint_interval": 100,
+    "evaluation_samples": 1000,
+    "gradient_penalty_weight": 10.0,
+    "generator_initial_lr": 0.0002,
+    "critic_initial_lr": 0.0004,
+    "lr_decay_steps": 500,
+    "lr_decay_rate": 0.9,
+    "min_generator_lr": 5e-06,
+    "min_critic_lr": 1e-05,
+    "context_window": 5
+  },
+  "noise_distribution": "Uniform[-pi, pi]^16",
+  "preprocessing_module": "classical_baseline/data_handling.py",
+  "metric_module": "classical_baseline/stylized.py",
+  "data_file": "Bitcoin_Data_2020_2026/btc_daily_2020_2026.csv",
+  "critic_source": "Exact architecture copy of project_model_ZZ/models_pennylane_based.py"
+}

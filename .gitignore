@@ -1,0 +1,31 @@
+# Python and notebooks
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+
+# Environments and editors
+.venv/
+venv/
+.conda/
+.vscode/
+.idea/
+
+# Operating-system metadata
+.DS_Store
+Thumbs.db
+
+# Raw source data (download separately; see DATA.md)
+Bitcoin_Data_2020_2026/btcusd_1-min_data.csv
+
+# Large or redundant training artifacts
+discriminator*.pkl
+critic*.pkl
+*_epoch_*.pkl
+*.v2
+events.out.tfevents.*
+QQ_plot_epoch_*
+
+# Regenerable interactive real-data reports
+Bitcoin_Data_2020_2026/real_data_inspection_figures_2020_2026/*.html

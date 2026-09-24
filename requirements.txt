@@ -1,0 +1,13 @@
+arch==8.0.0
+ipykernel==7.3.0
+matplotlib==3.10.9
+numpy==2.2.6
+pandas==2.3.3
+pennylane==0.42.3
+plotly==6.9.0
+ray==2.55.1
+scipy==1.15.2
+seaborn==0.13.2
+statsmodels==0.15.0
+tensorflow==2.21.0
+tqdm==4.70.0

@@ -1,0 +1,16 @@
+configuration,family,width,run,run_directory,last_evaluation_epoch,required_final_epoch,best_metrics_available,best_generator_weights_available,generated_windows_available,manifest_available,complete
+TCNN-2,TCNN,2.0,0,classical_baseline/sweep_tcnn_btc_daily_2020_2026_20260830_161109/filters_2_window_16_stride_1/run_0,4000,4000,True,True,True,True,True
+TCNN-2,TCNN,2.0,1,classical_baseline/sweep_tcnn_btc_daily_2020_2026_20260830_161109/filters_2_window_16_stride_1/run_1,4000,4000,True,True,True,True,True
+TCNN-2,TCNN,2.0,2,classical_baseline/sweep_tcnn_btc_daily_2020_2026_20260830_161109/filters_2_window_16_stride_1/run_2,4000,4000,True,True,True,True,True
+TCNN-4,TCNN,4.0,0,classical_baseline/sweep_tcnn_btc_daily_2020_2026_20260830_161109/filters_4_window_16_stride_1/run_0,4000,4000,True,True,True,True,True
+TCNN-4,TCNN,4.0,1,classical_baseline/sweep_tcnn_btc_daily_2020_2026_20260830_161109/filters_4_window_16_stride_1/run_1,4000,4000,True,True,True,True,True
+TCNN-4,TCNN,4.0,2,classical_baseline/sweep_tcnn_btc_daily_2020_2026_20260830_161109/filters_4_window_16_stride_1/run_2,4000,4000,True,True,True,True,True
+TCNN-6,TCNN,6.0,0,classical_baseline/sweep_tcnn_btc_daily_2020_2026_20260830_161109/filters_6_window_16_stride_1/run_0,4000,4000,True,True,True,True,True
+TCNN-6,TCNN,6.0,1,classical_baseline/sweep_tcnn_btc_daily_2020_2026_20260830_161109/filters_6_window_16_stride_1/run_1,4000,4000,True,True,True,True,True
+TCNN-6,TCNN,6.0,2,classical_baseline/sweep_tcnn_btc_daily_2020_2026_20260830_161109/filters_6_window_16_stride_1/run_2,4000,4000,True,True,True,True,True
+TCNN-8,TCNN,8.0,0,classical_baseline/sweep_tcnn_btc_daily_2020_2026_20260830_161109/filters_8_window_16_stride_1/run_0,4000,4000,True,True,True,True,True
+TCNN-8,TCNN,8.0,1,classical_baseline/sweep_tcnn_btc_daily_2020_2026_20260830_161109/filters_8_window_16_stride_1/run_1,4000,4000,True,True,True,True,True
+TCNN-8,TCNN,8.0,2,classical_baseline/sweep_tcnn_btc_daily_2020_2026_20260830_161109/filters_8_window_16_stride_1/run_2,4000,4000,True,True,True,True,True
+Two-parameter,two-parameter,,0,classical_baseline/sweep_two_parameter_btc_daily_2020_2026_20260830_161131/two_parameter_window_16_stride_1/run_0,4000,4000,True,True,True,True,True
+Two-parameter,two-parameter,,1,classical_baseline/sweep_two_parameter_btc_daily_2020_2026_20260830_161131/two_parameter_window_16_stride_1/run_1,4000,4000,True,True,True,True,True
+Two-parameter,two-parameter,,2,classical_baseline/sweep_two_parameter_btc_daily_2020_2026_20260830_161131/two_parameter_window_16_stride_1/run_2,4000,4000,True,True,True,True,True

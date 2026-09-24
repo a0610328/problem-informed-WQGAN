@@ -1,0 +1,51 @@
+{
+  "model": "ZZ time evolution",
+  "sweep": "project_model_ZZ_time_evolution/sweep_btc_daily_2020_2026_20260814_185721",
+  "output": "project_model_ZZ_time_evolution/performance_analysis",
+  "selection_rule": "For each layer with three completed runs, select the run with the median best Wasserstein loss; use it for all non-training diagnostics.",
+  "lags": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "confidence_intervals": {
+    "level": 0.95,
+    "type": "max-t simultaneous bootstrap interval across displayed lags",
+    "replicates": 2000,
+    "bitcoin_method": "moving-block bootstrap of the original return series, followed by reconstruction of stride-1 rolling 16-step windows",
+    "bitcoin_block_length": 64,
+    "bitcoin_block_length_rationale": "four analysis-window lengths, limiting reconstructed windows that cross artificial joins between resampled blocks",
+    "generated_method": "bootstrap resampling of complete 16-step windows"
+  },
+  "generated_files": [
+    "01_return_distribution.png",
+    "02_qq_plot.png",
+    "03_absolute_acf.png",
+    "04_absolute_acf_violin.png",
+    "05_acf.png",
+    "06_leverage.png",
+    "07_wasserstein_loss_vs_epoch_with_marker.png"
+  ],
+  "notes": [],
+  "representative_runs": {
+    "layer_1": "run_0",
+    "layer_2": "run_2",
+    "layer_3": "run_2",
+    "layer_4": "run_0"
+  },
+  "available_metric_runs": [
+    "layer_1/run_0",
+    "layer_1/run_1",
+    "layer_1/run_2",
+    "layer_2/run_0",
+    "layer_2/run_1",
+    "layer_2/run_2",
+    "layer_3/run_0",
+    "layer_3/run_1",
+    "layer_3/run_2",
+    "layer_4/run_0",
+    "layer_4/run_1",
+    "layer_4/run_2"
+  ]
+}
